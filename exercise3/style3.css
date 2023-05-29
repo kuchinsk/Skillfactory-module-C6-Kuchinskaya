@@ -1,0 +1,58 @@
+.chat {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    border-radius: 3px;
+    background-color: cadetblue;
+}
+.wrapper {
+    display: flex;
+    align-self: stretch;
+    position: sticky;
+    top: 0;
+    background-color: cadetblue;
+}
+input {
+    border: cadetblue;
+    border-radius: 3px;
+    margin: 5px;
+    width: 70%;
+}
+button {
+    border: cadetblue;
+    border-radius: 3px;
+    background-color: white;
+    margin: 5px;
+}
+button:hover {
+    transform: scale(1.05);
+}
+button:active {
+    border: 2px solid;
+}
+.talk {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 98%;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 3px;
+    margin: 5px;
+}
+.send_text {
+    border: 2px solid cadetblue;
+    border-radius: 3px;
+    margin: 3px 30px 3px 3px;
+    padding: 2px 10px;
+}
+.income_text {
+    display: flex;
+    align-self: flex-end;
+    border: 2px solid cadetblue;
+    border-radius: 3px;
+    margin: 3px 3px 3px 30px;
+    padding: 2px 10px;
+}
